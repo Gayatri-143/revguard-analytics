@@ -68,6 +68,33 @@ This project analyzes customer churn behavior in a telecom company using data an
   - Confusion Matrix
 
 ---
+## 📁 Project Structure
+```
+telco-churn-project/
+│
+├── data/
+│   ├── raw/                     # Original dataset
+│   ├── processed/              # Cleaned dataset
+│
+├── notebooks/
+│   ├── 01_eda.ipynb            # Exploratory Data Analysis
+│   ├── 02_feature_engineering.ipynb
+│   ├── 03_modeling.ipynb
+│
+├── src/
+│   ├── data_preprocessing.py   # Cleaning & transformation
+│   ├── feature_engineering.py
+│   ├── model.py                # ML model logic
+│
+├── outputs/
+│   ├── plots/                  # Saved graphs
+│   ├── results/                # Model results
+│
+├── README.md                   # Project documentation
+├── requirements.txt            # Dependencies
+└── .gitignore                  # Ignored files
+```
+---
 
 ## 🛠️ Technologies Used
 - Python
